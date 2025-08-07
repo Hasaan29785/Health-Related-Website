@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #d0f0c0;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #00796b;
+}
+button {
+    background: #009688;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #00796b;
+}
+#tip {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #388e3c;
+}
