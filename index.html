@@ -4,7 +4,12 @@
     <title>My Health Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body><form id="symptomForm">
+  <label for="symptoms">Enter your symptoms (comma separated):</label>
+  <input type="text" id="symptoms" name="symptoms" placeholder="e.g. headache, fever">
+  <button type="submit">Get Advice</button>
+</form>
+<div id="advice"></div>
     <h1>Welcome to My Health Website!</h1>
     <p>This is my first website.</p>
     <button id="showTip">Show a health tip</button>
