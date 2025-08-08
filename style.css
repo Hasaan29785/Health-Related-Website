@@ -13,6 +13,15 @@ header {
   text-align: center;
 }
 
+.main-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #111;
+}
+
 .disclaimer {
   background: #fff;
   color: #111;
