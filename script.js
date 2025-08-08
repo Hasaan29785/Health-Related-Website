@@ -3,7 +3,6 @@ document.getElementById('symptomForm').onsubmit = function(event) {
   const input = document.getElementById('symptoms').value.toLowerCase();
   const symptomsArray = input.split(',').map(s => s.trim());
 
-  // List of common diseases and their main symptoms
   const diseases = [
     {
       name: "Common Cold",
@@ -126,7 +125,6 @@ document.getElementById('symptomForm').onsubmit = function(event) {
   let foundDisease = false;
 
   for (const disease of diseases) {
-    // If user entered at least two symptoms that match this disease
     const matches = disease.symptoms.filter(s => symptomsArray.includes(s));
     if (matches.length >= Math.min(2, disease.symptoms.length)) {
       advice = disease.advice;
